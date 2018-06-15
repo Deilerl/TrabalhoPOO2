@@ -1,5 +1,5 @@
 package Persistencia;
-/*
+/**
  * Classe GarconDAO abstrai acesso dos dados da Classe Garcon, lê e grava a partir da origem de dados
  * Encapsula o acesso aos dados, de forma que as demais classes não precisam saber sobre isso
  */
@@ -14,7 +14,7 @@ import Negocio.Garcon;
 
 public class GarconDAO {
 	
-	/*
+	/**
 	 * Lista todos os Garçons cadastradas
 	 */
 	public ArrayList<Bebida> listarTodos() throws SQLException{

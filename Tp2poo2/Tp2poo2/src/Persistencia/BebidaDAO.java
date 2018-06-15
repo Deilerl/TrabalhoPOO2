@@ -2,6 +2,7 @@ package Persistencia;
 /*
  * Classe BebidaDAO abstrai acesso dos dados da Classe bebidas, lê e grava a partir da origem de dados
  * Encapsula o acesso aos dados, de forma que as demais classes não precisam saber sobre isso
+ * @autor (Deiler Luís)
  */
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,6 +16,7 @@ import Persistencia.Conexao;
 public class BebidaDAO {
 	/*
 	 * Lista todos as bebidas cadastradas
+	 * @autor (Deiler Luís)
 	 */
 	public ArrayList<Bebida> listarTodos() throws SQLException{
 		Connection con = new Conexao().getConnection();

@@ -1,7 +1,8 @@
 package Negocio;
 
-/* Atributos das bebidas, id, nome e preço
+/** Atributos das bebidas, id, nome e preço
  * inicia a classe bebida.
+ * @autor (Deiler Luís)
  * */
 public class Bebida {
 	private int id;
@@ -9,6 +10,7 @@ public class Bebida {
 	private float preco;
 	/*
 	 * gets and sets
+	 * @autor (Deiler Luís)
 	 * */
 	
 
