@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Tp2poo2/Tp2poo2/src"/>
+	<classpathentry kind="lib" path="C:/Users/Deiler/eclipsePOO/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="Tp2poo2/Tp2poo2/bin"/>
+</classpath>
